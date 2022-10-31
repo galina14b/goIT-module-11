@@ -16,7 +16,7 @@ function galleryCreation(e) {
   galleryBLock.textContent = '';
   let userQuery = input.value;
   getData(userQuery, page);
-
+  e.target.reset()
 }
 
 function downloadGalleryMore() {
